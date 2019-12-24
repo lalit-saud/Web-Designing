@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="home">
+      <header>
+        <div class="container ">
+          <div class="logo">
+            <a href="index.html">
+              <img src="img/logo.png" alt="" />
+            </a>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#yyyy">About Us</a></li>
+              <li>
+                <a href="#yyy"><img src="img/cart.png" alt=""/></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="container bg1">
+        <h1
+          data-aos="zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0" >
+          Our clothing , your comfort
+        </h1>
+        <p data-aos="fade-up" data-aos-duration="3000">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod <br />
+          tempor incididunt ut labore et dolore <br />
+          magna aliqua.
+        </p>
+        <div class="arrow">
+          <img src="img/arrow.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="filter">
+      <div class="container">
+        <div
+          class="fleft"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom" >
+          <form action="">
+            <input type="checkbox" name="" /> MEN
+            <input type="checkbox" /> WOMEN <input type="checkbox" /> CHILDREN
+          </form>
+        </div>
+        <div
+          class="fright"
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          <div class="btn">SEE ALL PRODUCTS</div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </section>
+    <section id="yyy">
+      <div class="container">
+        <h2>MEN</h2>
+        <div class="product">
+          <div class="pbox">
+            <img src="product_pc/s1.png" alt="" />
+            <div class="size">Size</div>
+            <div class="price">Nrs: 1800/-</div>
+            <div class="title">T-SHIRT</div>
+            </div>
+          <div class="pbox">
+            <img src="product_pc/s2.png" alt="" />
+            <div class="size">Size</div>
+            <div class="price">Nrs: 3400/-</div>
+            <div class="title">PANTS FORCLAZ</div>
+            </div>
+        <div class="pbox">
+          <img src="product_pc/s3.png" alt="" />
+          <div class="size">10LITRI</div>
+          <div class="price">Nrs: 2300/-</div>
+          <div class="title">BACKPACK</div>
+          </div>
+    </section>
+<section id="xxx">
+  <div class="container">
+    <h2>WOMEN</h2>
+    <div class="product">
+      <div class="pbox">
+        <img src="product_pc/s4.png" alt="" />
+        <div class="size">Size</div>
+        <div class="price">Nrs: 6800/-</div>
+        <div class="title">GIACKET</div>
+      </div>
+      <div class="pbox">
+        <img src="product_pc/s5.png" alt="" />
+        <div class="size">Size</div>
+        <div class="price">Nrs: 9300/-</div>
+        <div class="title">TREKKING SHOES</div>
+        </div>
+    <div class="pbox">
+      <img src="product_pc/s6.png" alt="" />
+      <div class="size">Size</div>
+      <div class="price">Nrs: 1200/-</div>
+      <div class="title">T-SHIRT</div>
+       </div>
+</section>
+    <section id="yyyy">
+      <div class="container">
+        <fieldset>
+          <legend>about us</legend>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br> do
+            eiusmod 
+            tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim
+            veniam, quis nostrud <br> exercitation</p>
+        </fieldset>
+      </div>
+    </section>
+    <section id="theme">
+      <div class="tlogo">
+        <img src="img/twiter.png" alt="" />
+        <h3><q> E-commerce psd theme available </q></h3>
+      </div>
+    </section>
+    <footer>
+<div class="container">
+  <div class="ffleft">
+    <h2>Trekking</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, 
+      sed do eiusmod tempor incididunt ut labore et <br> dolore magna 
+      aliqua. Ut enim ad minim veniam, quis <br>
+       nostrud exercitation ullamco laboris  nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <div class="ffright">
+    credits | Privacy |  about | contact
+   </div>
+  <div class="clear"></div>
+</div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(window).scroll(function() {
+        if ($(this).scrollTop() > 50) {
+          $("header").addClass("red");
+        } else {
+          $("header").removeClass("red");
+        }
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

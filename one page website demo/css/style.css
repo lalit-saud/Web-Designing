@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+#home {
+  background: url(../img/banner.jpg);
+  height: 789px;
+  background-size: cover;
+}
+.container {
+  width: 1152px;
+  margin: auto;
+}
+header {
+  padding: 40px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.9s;
+  z-index: 9999;
+}
+
+.logo {
+  float: left;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  padding-top: 10px;
+}
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  padding: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+/* nav ul li:last-child{
+  padding-left: 400px;
+}*/
+
+.bg1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 311px;
+}
+.bg1 h1 {
+  font-size: 43px;
+  padding: 15px;
+}
+.bg1 p {
+  font-size: 19px;
+}
+.red {
+  background: rgba(0, 0, 0, 0.6);
+}
+.arrow {
+  padding-top: 275px;
+}
+
+#filter {
+  background: #f5f6f7;
+  padding: 46px 0;
+}
+
+.fleft {
+  float: left;
+}
+.fright {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.btn {
+  background: #aa9b77;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#yyy {
+  padding: 80px 0;
+}
+#yyy h2 {
+  position: relative;
+}
+#yyy h2:after {
+  content: "";
+  width: 97%;
+  height: 2px;
+  background: #9999;
+  position: absolute;
+  top: 10px;
+  left: 60px;
+}
+.product {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+}
+.pbox {
+  position: relative;
+  
+  min-height: 390px;
+  margin-top: 104px;
+  background: #f5f6f7;
+  font-weight: bold;
+  border: 2px solid #f5f6f7 ;
+  transition: 0.9s;
+}
+
+.size,
+.price,
+.title,
+.pbox img {
+  position: absolute;
+}
+.size {
+  top: 20px;
+  left: 20px;
+}
+.price {
+  bottom: 20px;
+  right: 20px;
+}
+.title {
+  bottom: 20px;
+  left: 20px;
+}
+.pbox img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pbox:hover{
+  box-shadow: 0px 0px 45px #9999;
+  border: 2px solid #aa9b77 ;
+}
+
+
+#xxx{
+  padding:80px 0 ;
+}
+
+#xxx h2{
+  position: relative;
+}
+#xxx h2:before{
+  content: '';
+  width: 94%;
+  height: 2px;
+  background: #9999;
+  position: absolute;
+  top: 10px;
+  left:104px;
+}
+.product {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+}
+.pbox {
+  position: relative;
+  border: 2px solid #9999;
+  min-height: 390px;
+  margin-top: 104px;
+  background: #f5f6f7;
+  font-weight: bold;
+}
+
+.size,
+.price,
+.title,
+.pbox img {
+  position: absolute;
+}
+.size {
+  top: 20px;
+  left: 20px;
+}
+.price {
+  bottom: 20px;
+  right: 20px;
+}
+.title {
+  bottom: 20px;
+  left: 20px;
+}
+.pbox img {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ 
+#yyyy{
+ padding: 80px 0;
+  background: #aa9b77;
+}
+fieldset{
+  width: 70%;
+  margin: auto;
+  padding: 80px;
+  border: 1px solid #60594a;
+  position: relative;
+  text-align: center;
+
+}
+
+fieldset legend{
+  padding:15px ;
+  text-transform: uppercase;
+  position: absolute;
+  left: 40%;
+  top: -25px;
+  background: #aa9b77;
+}
+
+#theme {
+ padding: 7px 0;
+  background: #535253;
+  color: #ffff;
+}
+.tlogo img {
+  padding-left: 65px;
+  padding-top: 25px;
+}
+.tlogo h3 {
+  padding-left: 174px;
+}
+
+footer{
+  background: #424242;
+  color: #ffff;
+  padding: 140px 0;
+}
+.ffleft{
+  width: 40%;
+    float: left;
+}
+.ffleft h2{
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+.ffleft p{
+  padding-top: 14px;
+  text-transform: uppercase;
+}
+
+.ffright{
+  float: right;
+  padding-top: 70px;
+}
