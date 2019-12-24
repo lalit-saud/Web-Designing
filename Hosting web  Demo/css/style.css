@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: lato;
+  background-image: url(../img/image.png);
+}
+#first {
+  height: 45px;
+  background: #c4a2e2;
+  border-bottom: 1px solid #fff;
+}
+.content {
+  width: 940px;
+  margin: auto;
+  background: #f0f2f3;
+  height: 45px;
+}
+.left {
+  float: left;
+}
+.left {
+  width: 840px;
+  background: yellow;
+  height: 45px;
+}
+.right {
+  float: right;
+}
+.right {
+  width: 100px;
+  background: #c4a2e2;
+  height: 45px;
+}
+.right img {
+  margin-top: 18px;
+  margin-left: 8px;
+}
+.contact {
+  width: 220px;
+  background: #c4a2e2;
+  height: 45px;
+  color: #fff;
+}
+.contact {
+  float: left;
+}
+.contact img {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.mail {
+  float: right;
+}
+.mail {
+  width: 620px;
+  background: #c4a2e2;
+  height: 45px;
+  color: #fff;
+}
+.mail img {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.clear {
+  clear: both;
+}
+
+header {
+  height: 80px;
+  background: #f6f9fb;
+  border: 2px solid #9999;
+}
+.first {
+  width: 940px;
+  height: 75px;
+  background: red;
+  margin: auto;
+}
+.second {
+  width: 750px;
+  height: 75px;
+  background: #f6f9fb;
+}
+.second {
+  float: left;
+}
+.third {
+  width: 190px;
+  height: 75px;
+  background: #f6f9fb;
+}
+.third {
+  float: right;
+}
+.third input {
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.third img {
+  margin-left: 125px;
+  margin-bottom: 50px;
+}
+input {
+  position: relative;
+}
+.sicon {
+  margin-left: 40px;
+  margin-top: -20px;
+  position: absolute;
+}
+.logo {
+  width: 140px;
+  height: 75px;
+  background: #f6f9fb;
+}
+.logo {
+  float: left;
+}
+.logo img {
+  margin-top: 20px;
+}
+.menu {
+  width: 610px;
+  height: 75px;
+  background: #f6f9fb;
+}
+.menu {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  margin-top: 25px;
+  margin-left: 140px;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0px 18px;
+  text-transform: uppercase;
+}
+.active a,
+nav ul li a:hover {
+  color: #045690;
+}
+#second {
+  height: 360px;
+  width: 940px;
+  background-image: url(../img/world.png);
+  margin: auto;
+}
+
+#second .leftl {
+  float: left;
+}
+#second .leftl {
+  width: 400px;
+  padding-top: 35px;
+  color: #fff;
+}
+#second .leftl h3 {
+  padding-top: 5px;
+}
+#second .leftl p {
+  padding-top: 45px;
+}
+#second .leftl input {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+#second .rightr {
+  float: right;
+}
+#second .rightr {
+  width: 540px;
+  text-align: center;
+}
+#second .rightr {
+  padding-top: 190px;
+}
+
+#second .rightr .lefts {
+  float: left;
+}
+
+#second .rightr .lefts {
+  margin-right: -100px;
+  margin-top: 78px;
+}
+
+#second .rightr .rights {
+  float: right;
+}
+
+#second .rightr .rights {
+  margin-left: -100px;
+  margin-top: 78px;
+}
+
+#bg {
+  background-image: url(../img/clouds.png);
+  height: 115px;
+}
+.mid {
+  width: 940px;
+  height: 130px;
+  margin: auto;
+  background-image: url(../img/mid\cloud.png);
+}
+.background {
+  background: #ffff;
+}
+#con {
+  width: 940px;
+  margin: auto;
+}
+.info {
+  height: 140px;
+  background: #ffff;
+  text-align: center;
+}
+.info h3 {
+  padding-top: 25px;
+  padding-left: 300px;
+}
+.info p {
+  padding-top: 60px;
+  padding-left: 110px;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 15px;
+}
+.pbox {
+  position: relative;
+  min-height: 290px;
+  margin-top: 20px;
+  background: #ffff;
+  transition: 0.9s;
+}
+.pbox img,
+h3,
+p {
+  position: absolute;
+}
+.pbox img {
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pbox h3 {
+  top: 160px;
+  left: 95px;
+}
+.pbox p {
+  top: 190px;
+  left: 25px;
+}
+.domain {
+  height: 194px;
+  background: #eff1f2;
+  width: 940px;
+  margin: auto;
+}
+.domain h3 {
+  padding-left: 340px;
+  padding-top: 72px;
+}
+.domain p {
+  padding-left: 294px;
+  padding-top: 80px;
+}
+fieldset {
+  height: 45px;
+  width: 620px;
+  margin-top: 120px;
+  margin-left: 150px;
+  position: relative;
+}
+fieldset input .ls {
+  width: 400px;
+}
+.alogo img {
+  margin-left: 415px;
+  margin-top: 17px;
+  position: absolute;
+}
+.sbox {
+  width: 420px;
+  height: 30px;
+  position: absolute;
+  text-align: right;
+  margin: 5px 10px;
+}
+
+.bt {
+  position: absolute;
+  right: 35px;
+  top: 10px;
+  background: #3fbaed;
+}
+.pcbox {
+  width: 218px;
+  height: 312px;
+  background: #3fbaed;
+  background-image: url(../img/Map.png) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border: 2px solid #f0f2f3;
+}
+.package {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 15px;
+  margin-top: 80px;
+}
+.pcbox img {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -60px;
+}
+.outer img {
+  position: absolute;
+  margin-left: 62px;
+  margin-top: -52px;
+}
+.wbox {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50%;
+  background: #ffff;
+  padding-left: 50px;
+}
+.pkg p img {
+  margin-top: 5px;
+  margin-left: -18px;
+}
+
+.buy input {
+  margin-left: 25px;
+  margin-top: 120px;
+  background: #53c1ef;
+}
+
+.package .server img {
+  margin-top: 65px;
+}
+.pcloud img {
+  width: 214px;
+  margin-top: 125px;
+  margin-left: -0px;
+}
+
+.custom {
+  margin-top: 40px;
+  height: 180px;
+  background: #fbfcfc;
+}
+.plans {
+  text-align: center;
+}
+
+.plans input {
+  margin-top: 95px;
+  background: #51bfed;
+}
+
+.plans h3 {
+  margin-left: 280px;
+  margin-top: 20px;
+}
+
+.plans p {
+  text-align: center;
+  padding-left: 110px;
+  padding-top: 15px;
+
+  margin-top: 20px;
+}
+
+footer {
+  background: #c4a2e2;
+  margin: auto;
+  color: #ffff;
+}
+
+.fleft {
+  width: 400px;
+  height: 300px;
+  background: #c4a2e2;
+  float: left;
+}
+
+.fright {
+  width: 500px;
+  height: 300px;
+  background: #c4a2e2;
+  float: right;
+}
+.xy {
+  float: left;
+  margin: 20px 40px;
+}
+.pq {
+  float: right;
+  margin-top: 20px;
+}
+.rxy {
+  float: left;
+  margin-top: 20px;
+}
+.rpq {
+  float: right;
+  margin: 20px 20px;
+}
+.bcloud {
+  position: relative;
+}
+.fcloud {
+  margin-top: -110px;
+  position: absolute;
+}
