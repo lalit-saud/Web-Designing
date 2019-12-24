@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/bg.jpg);
+  background-repeat: repeat-x;
+  background: #bebebe;
+  font-family: "Lato", sans-serif;
+}
+#page {
+  width: 940px;
+  margin: auto;
+  background: #ffff;
+}
+header {
+  height: 140px;
+  border-bottom: 9px solid #d7d7d7;
+}
+.logo {
+  float: left;
+}
+.info {
+  float: right;
+  text-align: right;
+  padding: 10px;
+  line-height: 1.2;
+  color: #253575;
+}
+.info p a {
+  color: #044470;
+  text-decoration: none;
+}
+nav {
+  float: right;
+  margin-right: -10px;
+}
+nav ul {
+  list-style: none;
+  padding-top: 12px;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  background: #253575;
+  padding: 10px;
+  border-left: 1px solid #fff;
+}
+.active a,
+nav ul li a:hover {
+  background: #d7d7d7;
+  color: red;
+}
+.content {
+  padding: 15px;
+}
+.left {
+  width: 70%;
+  float: left;
+  border-right: 1px black dotted;
+  padding-right: 10px;
+}
+.clc {
+  clear: both;
+}
+.content .xy ul {
+  list-style: none;
+}
+.content .xy h3 {
+  color: #333333;
+  padding: 10px 0;
+  text-shadow: 1px 1px 1px #bbbb;
+}
+.right {
+  float: right;
+  width: 25%;
+}
+.right ul {
+  list-style: none;
+}
+.right ul li a {
+  text-decoration: none;
+  color: #04587c;
+}
+.content h3 {
+  color: #044470;
+  padding: 10px 0;
+  text-shadow: 2px 2px 2px #bbbb;
+}
+footer {
+  background: #044470;
+  color: #fff;
+  height: 35px;
+}
+.address {
+  float: left;
+  margin: 10px 10px;
+}
+.copyright {
+  float: right;
+  margin: 10px 10px;
+}
+
+.xy .text {
+  color: #505050;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(192, 192, 192, 0.7) inset,
+    0px 0px 7px rgba(192, 192, 192, 0.7);
+  border: 1px solid #c0c0c0;
+  margin: 0 3px !important;
+  padding: 5px !important;
+  float: left;
+}
+.xy {
+  margin-left: 80px;
+  margin-top: 20px;
+}
