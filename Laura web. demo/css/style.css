@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css?family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clr {
+  clear: both;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+#home {
+  background-image: url("../images/mainimg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home {
+  height: 80vh;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 95px;
+  background: goldenrod;
+  z-index: 2;
+}
+
+.logo {
+  font-family: satisfy, cursive;
+  color: #ffff;
+  font-size: 60px;
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  margin-top: 40px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #ffff;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 0px 15px;
+}
+.active a,
+nav ul li a:hover {
+  background: #d7d7d7;
+  color: red;
+}
+
+.hi {
+  padding-top: 140px;
+  color: white;
+  font-size: 40px;
+}
+
+.hi p {
+  border-left: solid red 4px;
+  padding-left: 40px;
+}
+
+.hi p span {
+  font-family: satisfy, cursive;
+}
+
+.arrow {
+  margin: auto;
+  margin-top: 280px;
+  border: solid white 2px;
+  height: 50px;
+  width: 50px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+#about {
+  background-image: url("../images/1img.jpg");
+  height: 400px;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.imeet {
+  float: left;
+  padding-right: 15px;
+  border-right: solid red 4px;
+  text-align: right;
+}
+
+.imeet span {
+  font-family: satisfy, cursive;
+}
+
+.imeetd {
+  text-align: justify;
+  float: left;
+  margin-left: 20px;
+}
+
+.imeetd p {
+  font-size: 17px;
+}
+
+.imeetd dl {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#portfolio {
+  padding-top: 50px;
+  background: #f0f1e9;
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-size: 30px;
+}
+
+#portfolio h2 span {
+  font-family: satisfy, cursive;
+}
+
+.pic {
+  float: left;
+  width: 33.3%;
+}
+
+.pic img {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0px 5px;
+}
+
+#testimonial {
+  background: #ffffff;
+  padding-top: 50px;
+}
+
+#testimonial {
+  text-align: center;
+}
+
+#testimonial h2 span {
+  font-family: satisfy, cursive;
+}
+
+#testimonial ul {
+  list-style: none;
+}
+
+#testimonial ul li {
+  float: left;
+}
+
+.box1 {
+  border: solid grey 1px;
+  width: 300px;
+  float: left;
+  background: #eeeeee;
+  padding: 20px;
+  margin: 40px;
+  position: relative;
+}
+
+#contact {
+  margin-top: 60px;
+  height: 420px;
+  background: goldenrod;
+  color: white;
+  text-align: center;
+}
+
+#contact h1 {
+  font-size: 40px;
+  padding-top: 70px;
+}
+
+#contact span {
+  font-family: satisfy, cursive;
+}
+
+#contact p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#contact form {
+  margin-top: 30px;
+}
+
+#contact fieldset {
+  border: none;
+}
+
+#contact form fieldset input {
+  margin: 5px;
+  width: 300px;
+  height: 30px;
+}
+
+footer {
+  background: #f2f3eb;
+  height: 100px;
+  padding: 30px 50px;
+}
+
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+  font-size: 30px;
+}
