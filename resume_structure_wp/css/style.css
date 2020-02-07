@@ -1,0 +1,57 @@
+body{
+	font-family: 'Oswald', sans-serif;
+}
+#sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 17rem;
+    height: 100vh;
+    background: #bd5d38;
+}
+.rounded-circle{
+	margin-top: 148px;
+	border:10px solid #deae9b;
+}
+.bg1{
+	padding: 3rem 4rem;
+}
+a{
+	color: #deae9b !important;
+	font-size:22px;
+	font-weight: 800;
+}
+a:hover{
+	color: #fff !important;
+}
+.bg2{
+	padding-top: 222px;
+}
+.bg2 span{
+	color: #bd5d38 !important;
+}
+.bg2 p{
+	line-height: 15px;
+}
+.bg2 h6{
+	color:#495057; 
+}
+h1{
+	font-size:75px;
+	font-weight: 700;
+
+}
+h2{
+	font-size:42px;
+	font-weight: 700;
+
+}
+p{
+	color: #a48e96;
+	font-size: 22px;
+	font-weight:300;
+}
+h3{
+
+}
