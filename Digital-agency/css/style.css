@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.container::after {
+  content: "";
+  display: table;
+}
+header {
+  padding: 60px 0px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+.nave ul {
+  list-style: none;
+}
+.nave ul li {
+  display: inline;
+  padding: 25px;
+  color: #314584;
+  font-weight: bold;
+}
+.nave ul li a {
+  text-decoration: none;
+}
+.nave ul li a:hover {
+  color: goldenrod;
+  background: #314584;
+  padding: 20px;
+}
+.arrow span {
+  box-shadow: 0px 0px 5px #ccc;
+  padding: 16px;
+  margin-left: 30px;
+}
+.arrow a {
+  text-decoration: none;
+}
+.arrow span a {
+  color: #ff3946;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+.top {
+  background: url(../img/images/bg1.png) no-repeat;
+  height: 100vh;
+  background-position: top right;
+  background-size: 50% 90%;
+}
+.bg2 {
+  padding-top: 120px;
+}
+.bg2 h1 {
+  font-size: 33px;
+  color: #314584;
+}
+.bg2 p {
+  font-size: 22px;
+  padding: 30px 0px;
+}
+.bg2 .btn {
+  background: #ff3946;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.bg2 .btn a {
+  color: #fff;
+}
+.bg2 a {
+  padding: 20px;
+  color: #314584;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.abouttop {
+  display: flex;
+  justify-content: space-between;
+}
+.aboutfirst .btn {
+  background: goldenrod;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.aboutfirst {
+  padding: 80px;
+  text-align: center;
+}
+.aboutfirst h1 {
+  padding: 30px;
+}
+.innerbox {
+  width: 90%;
+  height: 390px;
+  box-shadow: 0px 0px 10px #cecccc;
+  padding: 50px;
+}
+.innerbox:hover {
+  background: goldenrod;
+  border-radius: 20px;
+  font-size: 22px;
+}
+.innerbox h3 {
+  padding: 25px;
+  font-size: 28px;
+}
+.aboutbottom {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 180px;
+}
+.aboutleftimg {
+  padding-right: 120px;
+}
+.aboutright {
+  padding: 40px;
+  text-align: left;
+}
+.aboutright h3 {
+  padding: 20px;
+}
+.red {
+  color: red;
+}
+.bg4 {
+  margin: auto;
+  width: 1140px;
+}
+.bg4first {
+  margin-top: 20px;
+  padding-left: 25%;
+}
+.bg4first .bg4arrow {
+  margin-left: 70%;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 25px;
+  margin-top: 80px;
+  padding: 60px;
+}
+
+.pbox {
+  border: solid goldenrod 2px;
+  height: 300px;
+  background: gray;
+}
+
+.smore {
+  text-align: center;
+}
+.smore p a {
+  text-decoration: none;
+}
+.bg4second {
+  margin-top: 40px;
+}
+.bg4second img {
+  padding-left: 90%;
+}
+.fmore {
+  text-align: left;
+}
+.fmore p a {
+  text-decoration: none;
+}
+.pboxcon {
+  padding: 30px 20px;
+}
+.pboxconimg {
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 40px;
+}
+.hpbox:hover {
+  background: red;
+  border-radius: 20px;
+  color: #fff;
+}
+.contact .temail {
+  width: 45%;
+  height: 40px;
+}
+.contact .tsubject {
+  width: 50%;
+  height: 40px;
+  margin-left: 45px;
+}
+.contact .tarea {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.contact .btn {
+  background: #ff3946;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.contact .btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.ifield {
+  margin-top: 40px;
+}
+
+footer {
+  width: 1170px;
+  height: 400px;
+  margin: auto;
+  background: #314584;
+  margin-top: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.sticker {
+  background: red;
+  height: 50px;
+  width: 200px;
+  overflow: hidden;
+  animation: st 2s fill-mode;
+}
+.content {
+  margin: auto;
+  width: 800px;
+  height: 400px;
+  padding: 120px;
+}
+.footercon ul {
+  list-style: none;
+}
+.footercon ul li {
+  display: inline;
+  padding: 20px;
+}
+.content p {
+  padding: 20px;
+}
+.content h2 {
+  color: #ff4359;
+}
+.social {
+  padding: 20px;
+}
