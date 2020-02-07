@@ -1,0 +1,40 @@
+body{ font-family: 'Montserrat', sans-serif; }
+
+.bg1{
+	background: #1abc9c;
+		color: #fff;
+		padding-top:120px;
+}
+.bg2{
+	background: #474e5d;
+	color: #fff;
+	height: 345px;
+}
+h2{
+	padding: 40px;
+}
+.bg2 button{
+	margin-bottom: 20px;
+}
+.bg3{
+	background: #ffffff;
+	color: #555f64;
+	
+}
+.bg3 h2{
+	padding: 30px;
+}
+p{
+	font-size: 19px;
+}
+footer{
+	background: #2f2f2f;
+	height: 180px;
+	color: #fff;
+	text-align: center;
+
+}
+.container-fluid{ 
+	padding-top: 50px ; 
+	padding-bottom: 50px;
+	 }
